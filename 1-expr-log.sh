@@ -6,3 +6,9 @@
 docker run --rm -it nvim-computer bash
 
 ansible-playbook fem.yml
+
+# encrypt testfile
+ansible-vault encrypt testfile
+
+# decrypt file
+ansible-vault decrypt testfile
