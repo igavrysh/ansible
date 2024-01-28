@@ -12,3 +12,6 @@ ansible-vault encrypt testfile
 
 # decrypt file
 ansible-vault decrypt testfile
+
+# to install core util
+ansible-playbook local.yml --ask-become-pass --ask-vault-pass

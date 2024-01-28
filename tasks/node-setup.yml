@@ -40,7 +40,14 @@
     - node
 
 - name: Install correct version of Node
-  shell: n 14
+  shell: {{npm_global_dir}}/bin/n 18
   tags:
     - install
     - node
+
+#- name: Install correct version of Node
+#  shell: {{npm_global_dir}}/bin/n 18
+#  tags:
+#    - install
+#    - terminal
+#    - node
